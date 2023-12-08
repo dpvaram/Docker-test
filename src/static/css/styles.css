@@ -5,17 +5,17 @@ body {
 }
 
 .item {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
+    box-shadow: 0 0 1em #995a5a;
     transition: all .2s ease-in-out;
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em #994e4e;
 }
 
 .item.completed {
@@ -35,5 +35,5 @@ body {
 }
 
 button:focus {
-    border: 1px solid #333;
+    border: 1px solid rgb(111, 111, 156);
 }
